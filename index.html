@@ -31,15 +31,15 @@
   // Create a client instance
   //client = new Paho.MQTT.Client("postman.cloudmqtt.com", 14970);
   
-  client = new Paho.MQTT.Client("postman.cloudmqtt.com", 31182, "web_" + parseInt(Math.random() * 100, 10));
+  client = new Paho.MQTT.Client("postman.cloudmqtt.com", 30154, "web_" + parseInt(Math.random() * 100, 10));
 
   // set callback handlers
   client.onConnectionLost = onConnectionLost;
   client.onMessageArrived = onMessageArrived;
   var options = {
     useSSL: true,
-    userName: "qntuswfx",
-    password: "5dyD5yU-FOz_",
+    userName: "qcxiuxji",
+    password: "KlpBPRu_fELk",
     onSuccess:onConnect,
     onFailure:doFail
   }
